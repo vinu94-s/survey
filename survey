@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="survey.css">
+
+</head>
+<body>
+    <header>
+        <h1>SURVEY FROM</h1>
+    </header>
+    <form id="feed">
+       <div class="row">
+        <label>NAME</label>
+            <input type="text" id="NAME" placeholder="enter the name"/>
+        </div>
+        <br>
+            <div class="label">
+            <label>EMAIL</label>
+            <input type="text" id="email" placeholder="enter the email"/>
+    
+        <div>
+            <br>
+            <div class="label">
+            <label>PH.NO</label>
+            <input type="number" id="ph.no" placeholder="enter the number"/>
+    
+        </div>
+        
+        <div class="label">
+            <br>
+        <label> where you get the COVID19 vaccine?</label>
+            <select>
+                <option>chennai</option>
+                <option>hyderbad</option>
+                <option>banglore</option>
+                <option>kerala</option>
+                <option>delhi</option>
+            </select>
+        
+        </div>
+        <div class="label">
+        <label>vaccine</label>
+    
+        
+            <input type="radio" name="button"><label>covaccine</label>
+            <input type="radio" name="button"><label>cosheild</label>
+        <div>
+            <br>
+            <div class="label">
+            <label>what happen when you get covid19 vaccinated?</label>
+            <textarea name="experience" id="experience"
+                  placeholder="Enter your experience">
+                  </textarea>
+        </div>
+        <div id="submitbutton">
+        <button type="submit" id="submit">Submit</button> 
+      </div>
+        </form>
+    </div>
+   </body>
+</html>   
+
+
+
+
+body{
+    background-color: lightblue;
+    font-family: sans-serif;
+    text-align: center;
+}
+form{
+    background-color:grey;
+    box-shadow: 2px 5px 10px;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px 20px;
+}
+.row{
+    text-align: left;
+}
+.label{
+    text-align: left;
+    margin-bottom: 25px;
+}
+.label1{
+    display: block;
+    margin-bottom: 10px;
+}
+.label input,
+.label select,
+.label textarea{
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 10px;
+    display: block;
+    width: 95%;
+
+}
+.label[type="radio"]{
+    display: inline-block;
+    width: auto;
+}
+button{
+    background-color: white;
+    border: 1px solid #777;
+    border-radius: 2px;
+}
